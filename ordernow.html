@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ordernow</title>
+    <style>
+        
+        .pink-color{
+            color: rgb(255, 13, 89);
+        }
+        .blue-color{
+            color: rgb(0, 1, 26);
+        }
+        body{
+            background-image: url("frostbites images/back3.jpg");
+        }
+        a:link {
+            color:rgb(0, 1, 26);
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:hover {
+            color: rgb(255, 13, 89);
+            background-color: transparent;text-decoration: none;
+        }
+        a:active {
+  color: rgb(0, 1, 26);
+  background-color: transparent;
+  text-decoration: none;
+}
+        button{
+            background-color: rgb(255, 13, 89);
+
+        }
+    </style>
+</head>
+<body style="font-size: 20px;">
+    <h1 style="font-size: 50px;" align="center"><strong class="blue-color">ORDER</strong> <strong class="pink-color">NOW</strong></h1>
+    <br>
+    <div class="blue-color"><form action="">
+        <label for="name"><h2>NAME</h2>
+            <input type="text" id="name" placeholder="your name" size="25" maxlength="25" >
+        </label>
+        <label for="number"><h2>PHONE NUMBER</h2><input type="text"  id="number"  placeholder="+91"size="10" maxlength="10"></label>
+        <label for="address"><h2>ADDRESS</h2><textarea name=""  id="address" cols="30" placeholder="address" maxlength="200" rows="5"></textarea></label>
+        <h2>SELECT ICE CREAM PRODUCT</h2>
+        <input type="checkbox" name="product" id="" value="icecreamcups" checked="checked"><strong>ice cream cups</strong><strong> ---FLAVOURS</strong><select name="flavour-cups" id="">
+            <option value="none">none</option>
+            <option value="swiss chocolate">swiss chocolate</option>
+            <option value="fresh strawberry">fresh strawberry</option>
+            
+        </select><strong> ---QUALITY</strong><input type="number" name="" value="cup-quality" id="" min="0" max="20" default="0"> <br>
+        <input type="checkbox" name="product" id="" value="icecreamcakes"> <strong>ice cream cakes ---FLAVOURS</strong> <select name="flavour-cakes" id="">
+            <option value="none">none</option>
+            <option value="chocolate overload">chocolate overload</option>
+            <option value="caramel brownie cake">caramel brownie cake</option>
+        </select><strong> ---QUALITY</strong><input type="number" name="" default="0" value="cake-quality" id="" min="0" max="5">     <br>
+        <input type="checkbox" name="product" id="" value="icecreamshakes"><strong> ice cream shakes ---FLAVOURS <select name="flavour-shakes" id="">
+            <option value="none">none</option>
+            <option value="chocolate">chocolate</option>
+            <option value="strawberry">strawberry</option>
+            <option value="vanilla">vanilla</option>
+        </select>---QUALITY</strong><input type="number" default="0" name="cake" id="" value="shake-quality" min="0" max="20">
+        <h2>SELECT PAYMENT MODE</h2>
+        <strong><input type="radio" name="payment" id="" value="UPI" checked="checked">UPI
+        <input type="radio" name="payment" id="" value="creditcard">creditcard
+        <input type="radio" name="payment" id="" value="cash on deliver">cash on deliver</strong>
+        <br>
+        <br>
+        <button type="submit" width="100"> <h3> &emsp; ORDER&emsp;</h3>  </button>
+    </form>
+    <br>
+    <br>
+    <h4>copyright&copy;2021</h4>
+    <h2 class="blue-color"><a href="home.html">BACK TO HOME PAGE</a></h2>
+        
+</div>
+</body>
+</html>
